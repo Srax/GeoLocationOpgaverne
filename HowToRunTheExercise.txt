@@ -1,0 +1,9 @@
+Start the reactnativeserver:
+1) npm start
+2) Run ngrok.exe http 4000 to make ngrok listen on port 4000
+
+Start the expoLocationApp:
+1) Change the "URL" in expoLocationApp.App.js to the new ngrok server
+2) Run expo start
+
+demolocation1 doesn't require the server to run.
